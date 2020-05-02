@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+    protoc:
+        container_name: protoc
+        image: bdlm/protoc:latest
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes:
+            - .:/go/src/github.com/bdlm/protc
+        working_dir: /go/src/github.com/bdlm/protoc
+        command:
+            - "./proto"
