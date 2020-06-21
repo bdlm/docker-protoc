@@ -9,6 +9,7 @@
 **[CHANGELOG](CHANGELOG.md)**<br>
 
 <a href="https://github.com/bdlm/docker-protoc/blob/master/CHANGELOG.md"><img src="https://img.shields.io/github/v/release/bdlm/docker-protoc" alt="Release"></a>
+<a href="https://hub.docker.com/repository/docker/bdlm/protoc"><img src="https://img.shields.io/docker/pulls/bdlm/protoc.svg" alt="DockerHub image pulls"></a>
 <a href="https://github.com/bdlm/docker-protoc/issues"><img src="https://img.shields.io/github/issues-raw/bdlm/docker-protoc.svg" alt="Github issues"></a>
 <a href="https://github.com/bdlm/docker-protoc/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/docker-protoc.svg" alt="Github pull requests"></a>
 <a href="https://github.com/bdlm/docker-protoc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/docker-protoc.svg" alt="MIT"></a>
