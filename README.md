@@ -12,3 +12,16 @@
 <a href="https://github.com/bdlm/docker-protoc/issues"><img src="https://img.shields.io/github/issues-raw/bdlm/docker-protoc.svg" alt="Github issues"></a>
 <a href="https://github.com/bdlm/docker-protoc/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/docker-protoc.svg" alt="Github pull requests"></a>
 <a href="https://github.com/bdlm/docker-protoc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/docker-protoc.svg" alt="MIT"></a>
+
+## Installed Packages
+
+* github.com/envoyproxy/protoc-gen-validate
+* github.com/golang/mock
+* github.com/golang/protobuf
+* github.com/golang/protobuf/protoc-gen-go
+* github.com/grpc-ecosystem/grpc-gateway
+* github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+* github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+* github.com/kisielk/errcheck
+* github.com/shurcooL/vfsgen
+* google.golang.org/grpc
