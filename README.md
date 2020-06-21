@@ -25,3 +25,42 @@
 * github.com/kisielk/errcheck
 * github.com/shurcooL/vfsgen
 * google.golang.org/grpc
+
+## Examples
+Examples of compiling the [service orchestration healthchecks](https://github.com/bdlm/api/tree/master/proto/v1/orchestration).
+
+### Generate gRPC-Gateway packages with swagger docs:
+```
+protoc \
+	-I=${GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis \
+	-I=${GOPATH}/src/github.com/envoyproxy \
+	-I=${GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway \
+	-I=${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration \
+	-I=/usr/local/include \
+	--go_opt=paths=source_relative \
+	--go_out=plugins=grpc:${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration \
+	--grpc-gateway_out=logtostderr=true:${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration \
+	--validate_out=lang=go:${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration \
+	--swagger_out=logtostderr=true,allow_merge=true,merge_file_name=external.swagger:${GOPATH}/src/github.com/bdlm/api/ \
+	proto/v1/orchestration/swagger \
+	${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration/response.proto
+```
+
+### Generate embedded docs with vfsgen:
+```
+go run -mod=vendor \
+	${GOPATH}/src/github.com/bdlm/docker-protoc/vfsgen.go \
+	--dir=./orchestration/swagger/ \
+	--outfile=./orchestration/docs/docs.go \
+	--pkg=docs \
+	--variable=Docs
+```
+
+### Generate service mocks:
+```
+mockgen \
+	--destination=./orchestration/mock/mock.go \
+	github.com/bdlm/api/proto/v1/orchestration \
+	OrchestrationClient,OrchestrationServer
+```
+
