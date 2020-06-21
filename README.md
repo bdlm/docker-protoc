@@ -8,11 +8,10 @@
 
 **[CHANGELOG](CHANGELOG.md)**<br>
 
-<a href="https://github.com/bdlm/api/blob/master/CHANGELOG.md"><img src="https://img.shields.io/github/v/release/bdlm/api" alt="Release"></a>
-<a href="https://pkg.go.dev/github.com/bdlm/api/v2#pkg-examples"><img src="https://godoc.org/github.com/bdlm/api?status.svg" alt="GoDoc"></a>
-<a href="https://travis-ci.org/bdlm/api"><img src="https://travis-ci.org/bdlm/api.svg?branch=master" alt="Build status"></a>
-<a href="https://codecov.io/gh/bdlm/api"><img src="https://img.shields.io/codecov/c/github/bdlm/api/master.svg" alt="Coverage status"></a>
-<a href="https://goreportcard.com/report/github.com/bdlm/api"><img src="https://goreportcard.com/badge/github.com/bdlm/api" alt="Go Report Card"></a>
-<a href="https://github.com/bdlm/api/issues"><img src="https://img.shields.io/github/issues-raw/bdlm/api.svg" alt="Github issues"></a>
-<a href="https://github.com/bdlm/api/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/api.svg" alt="Github pull requests"></a>
-<a href="https://github.com/bdlm/api/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/api.svg" alt="MIT"></a>
+<a href="https://github.com/bdlm/docker-protoc/blob/master/CHANGELOG.md"><img src="https://img.shields.io/github/v/release/bdlm/docker-protoc" alt="Release"></a>
+<a href="https://travis-ci.org/bdlm/docker-protoc"><img src="https://travis-ci.org/bdlm/docker-protoc.svg?branch=master" alt="Build status"></a>
+<a href="https://codecov.io/gh/bdlm/docker-protoc"><img src="https://img.shields.io/codecov/c/github/bdlm/docker-protoc/master.svg" alt="Coverage status"></a>
+<a href="https://goreportcard.com/report/github.com/bdlm/docker-protoc"><img src="https://goreportcard.com/badge/github.com/bdlm/docker-protoc" alt="Go Report Card"></a>
+<a href="https://github.com/bdlm/docker-protoc/issues"><img src="https://img.shields.io/github/issues-raw/bdlm/docker-protoc.svg" alt="Github issues"></a>
+<a href="https://github.com/bdlm/docker-protoc/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/docker-protoc.svg" alt="Github pull requests"></a>
+<a href="https://github.com/bdlm/docker-protoc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/docker-protoc.svg" alt="MIT"></a>
