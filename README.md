@@ -29,7 +29,7 @@
 ## Examples
 Examples of compiling the [service orchestration healthchecks](https://github.com/bdlm/api/tree/master/proto/v1/orchestration).
 
-### Generate gRPC-Gateway packages with swagger docs:
+### Generate gRPC-Gateway packages with swagger docs
 ```
 protoc \
 	-I=${GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis \
@@ -46,7 +46,7 @@ protoc \
 	${GOPATH}/src/github.com/bdlm/api/proto/v1/orchestration/response.proto
 ```
 
-### Generate embedded docs with vfsgen:
+### Generate embedded docs with vfsgen
 ```
 go run -mod=vendor \
 	${GOPATH}/src/github.com/bdlm/docker-protoc/vfsgen.go \
@@ -56,7 +56,7 @@ go run -mod=vendor \
 	--variable=Docs
 ```
 
-### Generate service mocks:
+### Generate service mocks
 ```
 mockgen \
 	--destination=./orchestration/mock/mock.go \
