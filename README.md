@@ -13,7 +13,7 @@
 <a href="https://github.com/bdlm/docker-protoc/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/docker-protoc.svg" alt="Github pull requests"></a>
 <a href="https://github.com/bdlm/docker-protoc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/docker-protoc.svg" alt="MIT"></a>
 
-## Installed Packages
+## Available Packages
 
 * github.com/envoyproxy/protoc-gen-validate
 * github.com/golang/mock
