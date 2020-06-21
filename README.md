@@ -13,6 +13,8 @@
 <a href="https://github.com/bdlm/docker-protoc/pulls"><img src="https://img.shields.io/github/issues-pr/bdlm/docker-protoc.svg" alt="Github pull requests"></a>
 <a href="https://github.com/bdlm/docker-protoc/blob/master/LICENSE"><img src="https://img.shields.io/github/license/bdlm/docker-protoc.svg" alt="MIT"></a>
 
+This image is used to compile protobuf API definitions into Golang gRPC and REST services using the [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) package.
+
 ## Available Packages
 
 * github.com/envoyproxy/protoc-gen-validate
